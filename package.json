@@ -1,0 +1,25 @@
+{
+  "name": "proxy-contract",
+  "version": "1.0.0",
+  "description": "```bash\r $ git clone https://github.com/subhodi/proxy-contract.git\r $ npm install -g truffle\r $ npm install -g ethereumjs-testrpc\r $ testrpc\r $ truffle compile\r $ truflle migrate\r $ truffle test\r ```",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subhodi/proxy-contract.git"
+  },
+  "author": "subhodi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/subhodi/proxy-contract/issues"
+  },
+  "homepage": "https://github.com/subhodi/proxy-contract#readme",
+  "dependencies": {
+    "eth-lightwallet": "^3.0.1"
+  }
+}
